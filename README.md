@@ -23,7 +23,6 @@ To write and execute an Assembly Language Program for sorting data in Ascending 
 ## Program (Ascending order)
 
 ```asm
-
 MOV  RO,#40H
 MOV R6,30H
 DEC R6
@@ -43,19 +42,9 @@ DJNZ R6,LOOP
 DJNZ R1,LOOP1
 SJMP HERE
 END
-
-
-
-
-
-
 ```
 ## OUTPUT(Ascending order)
-<img width="1600" height="853" alt="image" src="https://github.com/user-attachments/assets/f83a5868-e7b4-4462-97b7-70e74caccba0" />
-
-
-
----
+<img width="1600" height="853" alt="image" src="https://github.com/user-attachments/assets/f83a5868-e7b4-4462-97b7-70e74caccba0" />---
 
 ## Algorithm(Descending order)
 1. Initialize the register **R7** with count.  
