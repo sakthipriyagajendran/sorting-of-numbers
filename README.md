@@ -24,11 +24,34 @@ To write and execute an Assembly Language Program for sorting data in Ascending 
 
 ```asm
 
+MOV  RO,#40H
+MOV R6,30H
+DEC R6
+MOV A,R1
+MOV R7,A
+MOV A,@RO
+INC RO
+MOV B,@RO
+CJNE A,B,CHECK
+SJMP DOWN
+JC DOWN
+MOV @RO,A
+DEC RO
+MOV @RO,B
+INC RO
+DJNZ R6,LOOP
+DJNZ R1,LOOP1
+SJMP HERE
+END
+
+
+
 
 
 
 ```
 ## OUTPUT(Ascending order)
+<img width="1600" height="853" alt="image" src="https://github.com/user-attachments/assets/0f700439-abda-4a82-b134-d523c5a5a549" />
 
 
 
